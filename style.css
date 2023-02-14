@@ -1,0 +1,132 @@
+@import url("style/flex.css");
+
+body{
+    background-color: rgb(41, 41, 41);
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.fundo{
+    background-color:#cccccc;
+    margin: 5% 8%;
+    height: 100%;
+}
+
+.container__header_lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container__header_conteudo{
+    font-size: 25px;
+    margin: 1.5em 1em 0 3em;
+}
+
+.container__header-portfolio{
+    text-align: center;
+    margin-top: 2em;
+}
+
+.container__header-portfolio a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    text-transform: uppercase;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: .2em;
+}
+
+.container__header-portfolio:active{
+    border: aliceblue;
+}
+
+.container__apresentacao{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container__apresentacao_titulo, .container__grid-subtitulo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 3% 10%;
+    text-decoration: underline
+}
+
+.container__subtitulo{
+    margin-bottom: .5em;
+}
+
+.container__apresentacao_titulo strong{
+    padding-left: 10%;
+}
+
+.apresentaçao{
+    width: 90%;
+}
+
+.container__foto{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    margin-left: 10%;
+}
+
+.centro__social{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grid__centro_social{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    align-items: center;
+}
+
+.social__item{
+    text-align: center;
+    width: 90%;
+    height: 10%;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border: solid black 1px;
+    text-decoration: none;
+    padding: .1em;
+    margin-left: 1em;
+}
+
+.grid__centro_social a:active {
+   border-color: aliceblue;
+}
+
+.grid__centro{
+    display: flex;
+    font-size: 30px;
+}
+
+.grid__centro_apresentacao{
+    text-align: center;
+    align-self: center;
+    margin: 1em 3em 2em 3em;
+    font-size: 20px;
+}  
+
+.grid__centro_apresentacao a{
+    color: black;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+
+
